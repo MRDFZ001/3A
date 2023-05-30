@@ -1,5 +1,6 @@
 ####################################
-# 节点数量：12
+# 创建者：公众号MRDFZ
+# 节点数量：50
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -17,123 +18,389 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"剩余流量：999944.93 GB\r","type":"trojan","server":"sgp2.piaole.me","port":26911,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"sgp.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"套餐到期：2123-04-21\r","type":"trojan","server":"sgp2.piaole.me","port":26911,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"sgp.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡1|防墙节点","type":"vmess","server":"cloudflare.piaole.me","port":443,"cipher":"auto","uuid":"e8dacfc5-79b1-4289-92f1-e390080d56aa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/huawei"}}
-  - {"name":"新加坡2|防墙节点","type":"vmess","server":"cloudflare.piaole.me","port":443,"cipher":"auto","uuid":"e8dacfc5-79b1-4289-92f1-e390080d56aa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/huawei"}}
-  - {"name":"新加坡3|流媒体解锁|GPT解锁\r","type":"trojan","server":"sgp.piaole.me","port":31467,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"sgp.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡4|流媒体解锁|GPT解锁\r","type":"trojan","server":"sgp.piaole.me","port":26911,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"sgp.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡5|流媒体解锁|GPT解锁\r","type":"trojan","server":"sgp2.piaole.me","port":26911,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"sgp.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡6|流媒体解锁|GPT解锁\r","type":"trojan","server":"sgp2.piaole.me","port":31467,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"sgp.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国1|无解锁\r","type":"trojan","server":"us2.piaole.me","port":18693,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"us.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国2|IPV6专用节点|无解锁\r","type":"trojan","server":"usv6.piaole.me","port":18693,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"us.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国3|无解锁\r","type":"trojan","server":"us.piaole.me","port":18693,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"us.piaole.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国4|无解锁\r","type":"trojan","server":"us.piaole.me","port":18693,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"us.piaole.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_1","type":"trojan","server":"163.123.192.153","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_2","type":"trojan","server":"163.123.192.156","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_3","type":"trojan","server":"217.79.184.18","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_4","type":"trojan","server":"hk2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_5","type":"trojan","server":"jp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_6","type":"trojan","server":"sg2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_7","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"jp1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_8","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"us1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_9","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"us2.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_10","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"us3.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_11","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"us4.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_12","type":"trojan","server":"hinet2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_13","type":"vmess","server":"ct02.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct02.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_14","type":"vmess","server":"ct04.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct04.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_15","type":"vmess","server":"ct09.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct09.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_16","type":"ss","server":"952e81ec.d0f692af.83df.34fb5e38.cc","port":30004,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_17","type":"ss","server":"952e81ec.e0c22373.83df.34fb5e38.cc","port":30007,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_18","type":"ss","server":"952e81ec.5d93d47a.83df.34fb5e38.cc","port":30002,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_19","type":"vmess","server":"ct03.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct03.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_20","type":"vmess","server":"ct01.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct01.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_21","type":"ss","server":"952e81ec.8165f584.fdba.34fb5e38.cc","port":40921,"password":"1a119bac-ec58-4c39-a719-c80e6988b1a7","cipher":"aes-128-gcm"}
+  - {"name":"公众号MRDFZ_22","type":"vmess","server":"ct06.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct06.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_23","type":"vmess","server":"ct08.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct08.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_24","type":"vmess","server":"952e81ec.99f513f9.db08.34fb5e38.cc","port":12356,"cipher":"auto","uuid":"69c93136-4b66-431f-ada4-00fb0b211d23","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公众号MRDFZ_25","type":"vmess","server":"fakev.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"fakev.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_26","type":"ss","server":"952e81ec.61d35517.83df.34fb5e38.cc","port":30003,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_27","type":"ss","server":"952e81ec.4b413e7e.83df.34fb5e38.cc","port":30001,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_28","type":"vmess","server":"ct05.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct05.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_29","type":"vmess","server":"ct07.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct07.34fb5e38.cc"}}}
+  - {"name":"公众号MRDFZ_30","type":"ss","server":"952e81ec.3e39dd48.83df.34fb5e38.cc","port":30005,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_31","type":"ss","server":"952e81ec.0f7802c4.83df.34fb5e38.cc","port":30010,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_32","type":"ss","server":"952e81ec.b02247a0.83df.34fb5e38.cc","port":30006,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_33","type":"ss","server":"952e81ec.57272fb5.83df.34fb5e38.cc","port":30008,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
+  - {"name":"公众号MRDFZ_34","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-de1-fly.imnibaba.wiki"}}}
+  - {"name":"公众号MRDFZ_35","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-fi1-fly.imnibaba.wiki"}}}
+  - {"name":"公众号MRDFZ_36","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-uk1-fly.imnibaba.wiki"}}}
+  - {"name":"公众号MRDFZ_37","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-us1-fly.imnibaba.wiki"}}}
+  - {"name":"公众号MRDFZ_38","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-us1-fly.imnibaba.wiki"}}}
+  - {"name":"公众号MRDFZ_39","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-us1-fly.imnibaba.wiki"}}}
+  - {"name":"公众号MRDFZ_40","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/jp1","headers":{"host":"jp1.djjc.sbs"}}}
+  - {"name":"公众号MRDFZ_41","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/de1","headers":{"host":"de1.djjc.sbs"}}}
+  - {"name":"公众号MRDFZ_42","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us4","headers":{"host":"us4.djjc.sbs"}}}
+  - {"name":"公众号MRDFZ_43","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us3","headers":{"host":"us3.djjc.sbs"}}}
+  - {"name":"公众号MRDFZ_44","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us2","headers":{"host":"us2.djjc.sbs"}}}
+  - {"name":"公众号MRDFZ_45","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us1","headers":{"host":"us1.djjc.sbs"}}}
+  - {"name":"麻烦大家关注一下抖音","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"穷了恰点烂钱","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"DY：MRDFZ","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"后面会发各种教程","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"恰点烂钱","type":"trojan","server":"163.123.192.155","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "剩余流量：999944.93 GB\r"
-      - "套餐到期：2123-04-21\r"
-      - 新加坡1|防墙节点
-      - 新加坡2|防墙节点
-      - "新加坡3|流媒体解锁|GPT解锁\r"
-      - "新加坡4|流媒体解锁|GPT解锁\r"
-      - "新加坡5|流媒体解锁|GPT解锁\r"
-      - "新加坡6|流媒体解锁|GPT解锁\r"
-      - "美国1|无解锁\r"
-      - "美国2|IPV6专用节点|无解锁\r"
-      - "美国3|无解锁\r"
-      - "美国4|无解锁\r"
+      - 公众号MRDFZ_1
+      - 公众号MRDFZ_2
+      - 公众号MRDFZ_3
+      - 公众号MRDFZ_4
+      - 公众号MRDFZ_5
+      - 公众号MRDFZ_6
+      - 公众号MRDFZ_7
+      - 公众号MRDFZ_8
+      - 公众号MRDFZ_9
+      - 公众号MRDFZ_10
+      - 公众号MRDFZ_11
+      - 公众号MRDFZ_12
+      - 公众号MRDFZ_13
+      - 公众号MRDFZ_14
+      - 公众号MRDFZ_15
+      - 公众号MRDFZ_16
+      - 公众号MRDFZ_17
+      - 公众号MRDFZ_18
+      - 公众号MRDFZ_19
+      - 公众号MRDFZ_20
+      - 公众号MRDFZ_21
+      - 公众号MRDFZ_22
+      - 公众号MRDFZ_23
+      - 公众号MRDFZ_24
+      - 公众号MRDFZ_25
+      - 公众号MRDFZ_26
+      - 公众号MRDFZ_27
+      - 公众号MRDFZ_28
+      - 公众号MRDFZ_29
+      - 公众号MRDFZ_30
+      - 公众号MRDFZ_31
+      - 公众号MRDFZ_32
+      - 公众号MRDFZ_33
+      - 公众号MRDFZ_34
+      - 公众号MRDFZ_35
+      - 公众号MRDFZ_36
+      - 公众号MRDFZ_37
+      - 公众号MRDFZ_38
+      - 公众号MRDFZ_39
+      - 公众号MRDFZ_40
+      - 公众号MRDFZ_41
+      - 公众号MRDFZ_42
+      - 公众号MRDFZ_43
+      - 公众号MRDFZ_44
+      - 公众号MRDFZ_45
+      - 麻烦大家关注一下抖音
+      - 穷了恰点烂钱
+      - DY：MRDFZ
+      - 后面会发各种教程
+      - 恰点烂钱
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "剩余流量：999944.93 GB\r"
-      - "套餐到期：2123-04-21\r"
-      - 新加坡1|防墙节点
-      - 新加坡2|防墙节点
-      - "新加坡3|流媒体解锁|GPT解锁\r"
-      - "新加坡4|流媒体解锁|GPT解锁\r"
-      - "新加坡5|流媒体解锁|GPT解锁\r"
-      - "新加坡6|流媒体解锁|GPT解锁\r"
-      - "美国1|无解锁\r"
-      - "美国2|IPV6专用节点|无解锁\r"
-      - "美国3|无解锁\r"
-      - "美国4|无解锁\r"
+      - 公众号MRDFZ_1
+      - 公众号MRDFZ_2
+      - 公众号MRDFZ_3
+      - 公众号MRDFZ_4
+      - 公众号MRDFZ_5
+      - 公众号MRDFZ_6
+      - 公众号MRDFZ_7
+      - 公众号MRDFZ_8
+      - 公众号MRDFZ_9
+      - 公众号MRDFZ_10
+      - 公众号MRDFZ_11
+      - 公众号MRDFZ_12
+      - 公众号MRDFZ_13
+      - 公众号MRDFZ_14
+      - 公众号MRDFZ_15
+      - 公众号MRDFZ_16
+      - 公众号MRDFZ_17
+      - 公众号MRDFZ_18
+      - 公众号MRDFZ_19
+      - 公众号MRDFZ_20
+      - 公众号MRDFZ_21
+      - 公众号MRDFZ_22
+      - 公众号MRDFZ_23
+      - 公众号MRDFZ_24
+      - 公众号MRDFZ_25
+      - 公众号MRDFZ_26
+      - 公众号MRDFZ_27
+      - 公众号MRDFZ_28
+      - 公众号MRDFZ_29
+      - 公众号MRDFZ_30
+      - 公众号MRDFZ_31
+      - 公众号MRDFZ_32
+      - 公众号MRDFZ_33
+      - 公众号MRDFZ_34
+      - 公众号MRDFZ_35
+      - 公众号MRDFZ_36
+      - 公众号MRDFZ_37
+      - 公众号MRDFZ_38
+      - 公众号MRDFZ_39
+      - 公众号MRDFZ_40
+      - 公众号MRDFZ_41
+      - 公众号MRDFZ_42
+      - 公众号MRDFZ_43
+      - 公众号MRDFZ_44
+      - 公众号MRDFZ_45
+      - 麻烦大家关注一下抖音
+      - 穷了恰点烂钱
+      - DY：MRDFZ
+      - 后面会发各种教程
+      - 恰点烂钱
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "剩余流量：999944.93 GB\r"
-      - "套餐到期：2123-04-21\r"
-      - 新加坡1|防墙节点
-      - 新加坡2|防墙节点
-      - "新加坡3|流媒体解锁|GPT解锁\r"
-      - "新加坡4|流媒体解锁|GPT解锁\r"
-      - "新加坡5|流媒体解锁|GPT解锁\r"
-      - "新加坡6|流媒体解锁|GPT解锁\r"
-      - "美国1|无解锁\r"
-      - "美国2|IPV6专用节点|无解锁\r"
-      - "美国3|无解锁\r"
-      - "美国4|无解锁\r"
+      - 公众号MRDFZ_1
+      - 公众号MRDFZ_2
+      - 公众号MRDFZ_3
+      - 公众号MRDFZ_4
+      - 公众号MRDFZ_5
+      - 公众号MRDFZ_6
+      - 公众号MRDFZ_7
+      - 公众号MRDFZ_8
+      - 公众号MRDFZ_9
+      - 公众号MRDFZ_10
+      - 公众号MRDFZ_11
+      - 公众号MRDFZ_12
+      - 公众号MRDFZ_13
+      - 公众号MRDFZ_14
+      - 公众号MRDFZ_15
+      - 公众号MRDFZ_16
+      - 公众号MRDFZ_17
+      - 公众号MRDFZ_18
+      - 公众号MRDFZ_19
+      - 公众号MRDFZ_20
+      - 公众号MRDFZ_21
+      - 公众号MRDFZ_22
+      - 公众号MRDFZ_23
+      - 公众号MRDFZ_24
+      - 公众号MRDFZ_25
+      - 公众号MRDFZ_26
+      - 公众号MRDFZ_27
+      - 公众号MRDFZ_28
+      - 公众号MRDFZ_29
+      - 公众号MRDFZ_30
+      - 公众号MRDFZ_31
+      - 公众号MRDFZ_32
+      - 公众号MRDFZ_33
+      - 公众号MRDFZ_34
+      - 公众号MRDFZ_35
+      - 公众号MRDFZ_36
+      - 公众号MRDFZ_37
+      - 公众号MRDFZ_38
+      - 公众号MRDFZ_39
+      - 公众号MRDFZ_40
+      - 公众号MRDFZ_41
+      - 公众号MRDFZ_42
+      - 公众号MRDFZ_43
+      - 公众号MRDFZ_44
+      - 公众号MRDFZ_45
+      - 麻烦大家关注一下抖音
+      - 穷了恰点烂钱
+      - DY：MRDFZ
+      - 后面会发各种教程
+      - 恰点烂钱
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "剩余流量：999944.93 GB\r"
-      - "套餐到期：2123-04-21\r"
-      - 新加坡1|防墙节点
-      - 新加坡2|防墙节点
-      - "新加坡3|流媒体解锁|GPT解锁\r"
-      - "新加坡4|流媒体解锁|GPT解锁\r"
-      - "新加坡5|流媒体解锁|GPT解锁\r"
-      - "新加坡6|流媒体解锁|GPT解锁\r"
-      - "美国1|无解锁\r"
-      - "美国2|IPV6专用节点|无解锁\r"
-      - "美国3|无解锁\r"
-      - "美国4|无解锁\r"
+      - 公众号MRDFZ_1
+      - 公众号MRDFZ_2
+      - 公众号MRDFZ_3
+      - 公众号MRDFZ_4
+      - 公众号MRDFZ_5
+      - 公众号MRDFZ_6
+      - 公众号MRDFZ_7
+      - 公众号MRDFZ_8
+      - 公众号MRDFZ_9
+      - 公众号MRDFZ_10
+      - 公众号MRDFZ_11
+      - 公众号MRDFZ_12
+      - 公众号MRDFZ_13
+      - 公众号MRDFZ_14
+      - 公众号MRDFZ_15
+      - 公众号MRDFZ_16
+      - 公众号MRDFZ_17
+      - 公众号MRDFZ_18
+      - 公众号MRDFZ_19
+      - 公众号MRDFZ_20
+      - 公众号MRDFZ_21
+      - 公众号MRDFZ_22
+      - 公众号MRDFZ_23
+      - 公众号MRDFZ_24
+      - 公众号MRDFZ_25
+      - 公众号MRDFZ_26
+      - 公众号MRDFZ_27
+      - 公众号MRDFZ_28
+      - 公众号MRDFZ_29
+      - 公众号MRDFZ_30
+      - 公众号MRDFZ_31
+      - 公众号MRDFZ_32
+      - 公众号MRDFZ_33
+      - 公众号MRDFZ_34
+      - 公众号MRDFZ_35
+      - 公众号MRDFZ_36
+      - 公众号MRDFZ_37
+      - 公众号MRDFZ_38
+      - 公众号MRDFZ_39
+      - 公众号MRDFZ_40
+      - 公众号MRDFZ_41
+      - 公众号MRDFZ_42
+      - 公众号MRDFZ_43
+      - 公众号MRDFZ_44
+      - 公众号MRDFZ_45
+      - 麻烦大家关注一下抖音
+      - 穷了恰点烂钱
+      - DY：MRDFZ
+      - 后面会发各种教程
+      - 恰点烂钱
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "剩余流量：999944.93 GB\r"
-      - "套餐到期：2123-04-21\r"
-      - 新加坡1|防墙节点
-      - 新加坡2|防墙节点
-      - "新加坡3|流媒体解锁|GPT解锁\r"
-      - "新加坡4|流媒体解锁|GPT解锁\r"
-      - "新加坡5|流媒体解锁|GPT解锁\r"
-      - "新加坡6|流媒体解锁|GPT解锁\r"
-      - "美国1|无解锁\r"
-      - "美国2|IPV6专用节点|无解锁\r"
-      - "美国3|无解锁\r"
-      - "美国4|无解锁\r"
+      - 公众号MRDFZ_1
+      - 公众号MRDFZ_2
+      - 公众号MRDFZ_3
+      - 公众号MRDFZ_4
+      - 公众号MRDFZ_5
+      - 公众号MRDFZ_6
+      - 公众号MRDFZ_7
+      - 公众号MRDFZ_8
+      - 公众号MRDFZ_9
+      - 公众号MRDFZ_10
+      - 公众号MRDFZ_11
+      - 公众号MRDFZ_12
+      - 公众号MRDFZ_13
+      - 公众号MRDFZ_14
+      - 公众号MRDFZ_15
+      - 公众号MRDFZ_16
+      - 公众号MRDFZ_17
+      - 公众号MRDFZ_18
+      - 公众号MRDFZ_19
+      - 公众号MRDFZ_20
+      - 公众号MRDFZ_21
+      - 公众号MRDFZ_22
+      - 公众号MRDFZ_23
+      - 公众号MRDFZ_24
+      - 公众号MRDFZ_25
+      - 公众号MRDFZ_26
+      - 公众号MRDFZ_27
+      - 公众号MRDFZ_28
+      - 公众号MRDFZ_29
+      - 公众号MRDFZ_30
+      - 公众号MRDFZ_31
+      - 公众号MRDFZ_32
+      - 公众号MRDFZ_33
+      - 公众号MRDFZ_34
+      - 公众号MRDFZ_35
+      - 公众号MRDFZ_36
+      - 公众号MRDFZ_37
+      - 公众号MRDFZ_38
+      - 公众号MRDFZ_39
+      - 公众号MRDFZ_40
+      - 公众号MRDFZ_41
+      - 公众号MRDFZ_42
+      - 公众号MRDFZ_43
+      - 公众号MRDFZ_44
+      - 公众号MRDFZ_45
+      - 麻烦大家关注一下抖音
+      - 穷了恰点烂钱
+      - DY：MRDFZ
+      - 后面会发各种教程
+      - 恰点烂钱
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "剩余流量：999944.93 GB\r"
-      - "套餐到期：2123-04-21\r"
-      - 新加坡1|防墙节点
-      - 新加坡2|防墙节点
-      - "新加坡3|流媒体解锁|GPT解锁\r"
-      - "新加坡4|流媒体解锁|GPT解锁\r"
-      - "新加坡5|流媒体解锁|GPT解锁\r"
-      - "新加坡6|流媒体解锁|GPT解锁\r"
-      - "美国1|无解锁\r"
-      - "美国2|IPV6专用节点|无解锁\r"
-      - "美国3|无解锁\r"
-      - "美国4|无解锁\r"
+      - 公众号MRDFZ_1
+      - 公众号MRDFZ_2
+      - 公众号MRDFZ_3
+      - 公众号MRDFZ_4
+      - 公众号MRDFZ_5
+      - 公众号MRDFZ_6
+      - 公众号MRDFZ_7
+      - 公众号MRDFZ_8
+      - 公众号MRDFZ_9
+      - 公众号MRDFZ_10
+      - 公众号MRDFZ_11
+      - 公众号MRDFZ_12
+      - 公众号MRDFZ_13
+      - 公众号MRDFZ_14
+      - 公众号MRDFZ_15
+      - 公众号MRDFZ_16
+      - 公众号MRDFZ_17
+      - 公众号MRDFZ_18
+      - 公众号MRDFZ_19
+      - 公众号MRDFZ_20
+      - 公众号MRDFZ_21
+      - 公众号MRDFZ_22
+      - 公众号MRDFZ_23
+      - 公众号MRDFZ_24
+      - 公众号MRDFZ_25
+      - 公众号MRDFZ_26
+      - 公众号MRDFZ_27
+      - 公众号MRDFZ_28
+      - 公众号MRDFZ_29
+      - 公众号MRDFZ_30
+      - 公众号MRDFZ_31
+      - 公众号MRDFZ_32
+      - 公众号MRDFZ_33
+      - 公众号MRDFZ_34
+      - 公众号MRDFZ_35
+      - 公众号MRDFZ_36
+      - 公众号MRDFZ_37
+      - 公众号MRDFZ_38
+      - 公众号MRDFZ_39
+      - 公众号MRDFZ_40
+      - 公众号MRDFZ_41
+      - 公众号MRDFZ_42
+      - 公众号MRDFZ_43
+      - 公众号MRDFZ_44
+      - 公众号MRDFZ_45
+      - 麻烦大家关注一下抖音
+      - 穷了恰点烂钱
+      - DY：MRDFZ
+      - 后面会发各种教程
+      - 恰点烂钱
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,18 +423,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "剩余流量：999944.93 GB\r"
-      - "套餐到期：2123-04-21\r"
-      - 新加坡1|防墙节点
-      - 新加坡2|防墙节点
-      - "新加坡3|流媒体解锁|GPT解锁\r"
-      - "新加坡4|流媒体解锁|GPT解锁\r"
-      - "新加坡5|流媒体解锁|GPT解锁\r"
-      - "新加坡6|流媒体解锁|GPT解锁\r"
-      - "美国1|无解锁\r"
-      - "美国2|IPV6专用节点|无解锁\r"
-      - "美国3|无解锁\r"
-      - "美国4|无解锁\r"
+      - 公众号MRDFZ_1
+      - 公众号MRDFZ_2
+      - 公众号MRDFZ_3
+      - 公众号MRDFZ_4
+      - 公众号MRDFZ_5
+      - 公众号MRDFZ_6
+      - 公众号MRDFZ_7
+      - 公众号MRDFZ_8
+      - 公众号MRDFZ_9
+      - 公众号MRDFZ_10
+      - 公众号MRDFZ_11
+      - 公众号MRDFZ_12
+      - 公众号MRDFZ_13
+      - 公众号MRDFZ_14
+      - 公众号MRDFZ_15
+      - 公众号MRDFZ_16
+      - 公众号MRDFZ_17
+      - 公众号MRDFZ_18
+      - 公众号MRDFZ_19
+      - 公众号MRDFZ_20
+      - 公众号MRDFZ_21
+      - 公众号MRDFZ_22
+      - 公众号MRDFZ_23
+      - 公众号MRDFZ_24
+      - 公众号MRDFZ_25
+      - 公众号MRDFZ_26
+      - 公众号MRDFZ_27
+      - 公众号MRDFZ_28
+      - 公众号MRDFZ_29
+      - 公众号MRDFZ_30
+      - 公众号MRDFZ_31
+      - 公众号MRDFZ_32
+      - 公众号MRDFZ_33
+      - 公众号MRDFZ_34
+      - 公众号MRDFZ_35
+      - 公众号MRDFZ_36
+      - 公众号MRDFZ_37
+      - 公众号MRDFZ_38
+      - 公众号MRDFZ_39
+      - 公众号MRDFZ_40
+      - 公众号MRDFZ_41
+      - 公众号MRDFZ_42
+      - 公众号MRDFZ_43
+      - 公众号MRDFZ_44
+      - 公众号MRDFZ_45
+      - 麻烦大家关注一下抖音
+      - 穷了恰点烂钱
+      - DY：MRDFZ
+      - 后面会发各种教程
+      - 恰点烂钱
 
 rules:
 # 本地/局域网地址
