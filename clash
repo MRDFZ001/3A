@@ -1,6 +1,6 @@
 ####################################
-# 创建者：公众号MRDFZ
-# 节点数量：50
+# 创建者：MRDFZ
+# 节点数量：11
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -18,389 +18,116 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"公众号MRDFZ_1","type":"trojan","server":"163.123.192.153","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_2","type":"trojan","server":"163.123.192.156","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_3","type":"trojan","server":"217.79.184.18","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_4","type":"trojan","server":"hk2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_5","type":"trojan","server":"jp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_6","type":"trojan","server":"sg2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_7","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"jp1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_8","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"us1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_9","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"us2.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_10","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"us3.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_11","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"us4.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_12","type":"trojan","server":"hinet2.downloadvip.cfd","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_13","type":"vmess","server":"ct02.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct02.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_14","type":"vmess","server":"ct04.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct04.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_15","type":"vmess","server":"ct09.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct09.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_16","type":"ss","server":"952e81ec.d0f692af.83df.34fb5e38.cc","port":30004,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_17","type":"ss","server":"952e81ec.e0c22373.83df.34fb5e38.cc","port":30007,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_18","type":"ss","server":"952e81ec.5d93d47a.83df.34fb5e38.cc","port":30002,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_19","type":"vmess","server":"ct03.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct03.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_20","type":"vmess","server":"ct01.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct01.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_21","type":"ss","server":"952e81ec.8165f584.fdba.34fb5e38.cc","port":40921,"password":"1a119bac-ec58-4c39-a719-c80e6988b1a7","cipher":"aes-128-gcm"}
-  - {"name":"公众号MRDFZ_22","type":"vmess","server":"ct06.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct06.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_23","type":"vmess","server":"ct08.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct08.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_24","type":"vmess","server":"952e81ec.99f513f9.db08.34fb5e38.cc","port":12356,"cipher":"auto","uuid":"69c93136-4b66-431f-ada4-00fb0b211d23","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公众号MRDFZ_25","type":"vmess","server":"fakev.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"fakev.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_26","type":"ss","server":"952e81ec.61d35517.83df.34fb5e38.cc","port":30003,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_27","type":"ss","server":"952e81ec.4b413e7e.83df.34fb5e38.cc","port":30001,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_28","type":"vmess","server":"ct05.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct05.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_29","type":"vmess","server":"ct07.34fb5e38.cc","port":443,"cipher":"auto","uuid":"b12d952e-81ec-43a4-a523-bee54a234dfd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/34fb5e38","headers":{"host":"ct07.34fb5e38.cc"}}}
-  - {"name":"公众号MRDFZ_30","type":"ss","server":"952e81ec.3e39dd48.83df.34fb5e38.cc","port":30005,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_31","type":"ss","server":"952e81ec.0f7802c4.83df.34fb5e38.cc","port":30010,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_32","type":"ss","server":"952e81ec.b02247a0.83df.34fb5e38.cc","port":30006,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_33","type":"ss","server":"952e81ec.57272fb5.83df.34fb5e38.cc","port":30008,"password":"44e4e808-db1e-494d-9d7e-c67b38b13556","cipher":"aes-256-gcm"}
-  - {"name":"公众号MRDFZ_34","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-de1-fly.imnibaba.wiki"}}}
-  - {"name":"公众号MRDFZ_35","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-fi1-fly.imnibaba.wiki"}}}
-  - {"name":"公众号MRDFZ_36","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-uk1-fly.imnibaba.wiki"}}}
-  - {"name":"公众号MRDFZ_37","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-us1-fly.imnibaba.wiki"}}}
-  - {"name":"公众号MRDFZ_38","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-us1-fly.imnibaba.wiki"}}}
-  - {"name":"公众号MRDFZ_39","type":"vmess","server":"cdn.imnibaba.wiki","port":2052,"cipher":"auto","uuid":"7aa4ab75-86fa-4632-b180-b79dc27df7fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-us1-fly.imnibaba.wiki"}}}
-  - {"name":"公众号MRDFZ_40","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/jp1","headers":{"host":"jp1.djjc.sbs"}}}
-  - {"name":"公众号MRDFZ_41","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/de1","headers":{"host":"de1.djjc.sbs"}}}
-  - {"name":"公众号MRDFZ_42","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us4","headers":{"host":"us4.djjc.sbs"}}}
-  - {"name":"公众号MRDFZ_43","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us3","headers":{"host":"us3.djjc.sbs"}}}
-  - {"name":"公众号MRDFZ_44","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us2","headers":{"host":"us2.djjc.sbs"}}}
-  - {"name":"公众号MRDFZ_45","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"39242538-271a-4cae-9c37-f0ba7bb33bb3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us1","headers":{"host":"us1.djjc.sbs"}}}
-  - {"name":"麻烦大家关注一下抖音","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"穷了恰点烂钱","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"DY：MRDFZ","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"后面会发各种教程","type":"trojan","server":"163.123.192.154","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"恰点烂钱","type":"trojan","server":"163.123.192.155","port":443,"udp":true,"password":"39242538-271a-4cae-9c37-f0ba7bb33bb3","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"出一位66R订阅","type":"trojan","server":"tw1.kuimanei.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"kui.kuimanei.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"即日起到24年5月","type":"trojan","server":"us1.kuimanei.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"kui.kuimanei.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"有意联系V：MRDFZ-","type":"trojan","server":"hk7.yihaobao.xyz","port":443,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_公众号MRDFZ_1","type":"trojan","server":"hk1.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_公众号MRDFZ_2","type":"trojan","server":"hk2.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_公众号MRDFZ_3","type":"trojan","server":"hk3.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_公众号MRDFZ_4","type":"trojan","server":"hk4.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_公众号MRDFZ_5","type":"trojan","server":"hk5.yihaobao.xyz","port":10022,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_公众号MRDFZ_6","type":"trojan","server":"hk6.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_公众号MRDFZ_1","type":"trojan","server":"sg1.yihaobao.xyz","port":10025,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_公众号MRDFZ_2","type":"trojan","server":"sg2.yihaobao.xyz","port":10023,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 公众号MRDFZ_1
-      - 公众号MRDFZ_2
-      - 公众号MRDFZ_3
-      - 公众号MRDFZ_4
-      - 公众号MRDFZ_5
-      - 公众号MRDFZ_6
-      - 公众号MRDFZ_7
-      - 公众号MRDFZ_8
-      - 公众号MRDFZ_9
-      - 公众号MRDFZ_10
-      - 公众号MRDFZ_11
-      - 公众号MRDFZ_12
-      - 公众号MRDFZ_13
-      - 公众号MRDFZ_14
-      - 公众号MRDFZ_15
-      - 公众号MRDFZ_16
-      - 公众号MRDFZ_17
-      - 公众号MRDFZ_18
-      - 公众号MRDFZ_19
-      - 公众号MRDFZ_20
-      - 公众号MRDFZ_21
-      - 公众号MRDFZ_22
-      - 公众号MRDFZ_23
-      - 公众号MRDFZ_24
-      - 公众号MRDFZ_25
-      - 公众号MRDFZ_26
-      - 公众号MRDFZ_27
-      - 公众号MRDFZ_28
-      - 公众号MRDFZ_29
-      - 公众号MRDFZ_30
-      - 公众号MRDFZ_31
-      - 公众号MRDFZ_32
-      - 公众号MRDFZ_33
-      - 公众号MRDFZ_34
-      - 公众号MRDFZ_35
-      - 公众号MRDFZ_36
-      - 公众号MRDFZ_37
-      - 公众号MRDFZ_38
-      - 公众号MRDFZ_39
-      - 公众号MRDFZ_40
-      - 公众号MRDFZ_41
-      - 公众号MRDFZ_42
-      - 公众号MRDFZ_43
-      - 公众号MRDFZ_44
-      - 公众号MRDFZ_45
-      - 麻烦大家关注一下抖音
-      - 穷了恰点烂钱
-      - DY：MRDFZ
-      - 后面会发各种教程
-      - 恰点烂钱
+      - 出一位66R订阅
+      - 即日起到24年5月
+      - 有意联系V：MRDFZ-
+      - 🇭🇰_公众号MRDFZ_1
+      - 🇭🇰_公众号MRDFZ_2
+      - 🇭🇰_公众号MRDFZ_3
+      - 🇭🇰_公众号MRDFZ_4
+      - 🇭🇰_公众号MRDFZ_5
+      - 🇭🇰_公众号MRDFZ_6
+      - 🇸🇬_公众号MRDFZ_1
+      - 🇸🇬_公众号MRDFZ_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 公众号MRDFZ_1
-      - 公众号MRDFZ_2
-      - 公众号MRDFZ_3
-      - 公众号MRDFZ_4
-      - 公众号MRDFZ_5
-      - 公众号MRDFZ_6
-      - 公众号MRDFZ_7
-      - 公众号MRDFZ_8
-      - 公众号MRDFZ_9
-      - 公众号MRDFZ_10
-      - 公众号MRDFZ_11
-      - 公众号MRDFZ_12
-      - 公众号MRDFZ_13
-      - 公众号MRDFZ_14
-      - 公众号MRDFZ_15
-      - 公众号MRDFZ_16
-      - 公众号MRDFZ_17
-      - 公众号MRDFZ_18
-      - 公众号MRDFZ_19
-      - 公众号MRDFZ_20
-      - 公众号MRDFZ_21
-      - 公众号MRDFZ_22
-      - 公众号MRDFZ_23
-      - 公众号MRDFZ_24
-      - 公众号MRDFZ_25
-      - 公众号MRDFZ_26
-      - 公众号MRDFZ_27
-      - 公众号MRDFZ_28
-      - 公众号MRDFZ_29
-      - 公众号MRDFZ_30
-      - 公众号MRDFZ_31
-      - 公众号MRDFZ_32
-      - 公众号MRDFZ_33
-      - 公众号MRDFZ_34
-      - 公众号MRDFZ_35
-      - 公众号MRDFZ_36
-      - 公众号MRDFZ_37
-      - 公众号MRDFZ_38
-      - 公众号MRDFZ_39
-      - 公众号MRDFZ_40
-      - 公众号MRDFZ_41
-      - 公众号MRDFZ_42
-      - 公众号MRDFZ_43
-      - 公众号MRDFZ_44
-      - 公众号MRDFZ_45
-      - 麻烦大家关注一下抖音
-      - 穷了恰点烂钱
-      - DY：MRDFZ
-      - 后面会发各种教程
-      - 恰点烂钱
+      - 出一位66R订阅
+      - 即日起到24年5月
+      - 有意联系V：MRDFZ-
+      - 🇭🇰_公众号MRDFZ_1
+      - 🇭🇰_公众号MRDFZ_2
+      - 🇭🇰_公众号MRDFZ_3
+      - 🇭🇰_公众号MRDFZ_4
+      - 🇭🇰_公众号MRDFZ_5
+      - 🇭🇰_公众号MRDFZ_6
+      - 🇸🇬_公众号MRDFZ_1
+      - 🇸🇬_公众号MRDFZ_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 公众号MRDFZ_1
-      - 公众号MRDFZ_2
-      - 公众号MRDFZ_3
-      - 公众号MRDFZ_4
-      - 公众号MRDFZ_5
-      - 公众号MRDFZ_6
-      - 公众号MRDFZ_7
-      - 公众号MRDFZ_8
-      - 公众号MRDFZ_9
-      - 公众号MRDFZ_10
-      - 公众号MRDFZ_11
-      - 公众号MRDFZ_12
-      - 公众号MRDFZ_13
-      - 公众号MRDFZ_14
-      - 公众号MRDFZ_15
-      - 公众号MRDFZ_16
-      - 公众号MRDFZ_17
-      - 公众号MRDFZ_18
-      - 公众号MRDFZ_19
-      - 公众号MRDFZ_20
-      - 公众号MRDFZ_21
-      - 公众号MRDFZ_22
-      - 公众号MRDFZ_23
-      - 公众号MRDFZ_24
-      - 公众号MRDFZ_25
-      - 公众号MRDFZ_26
-      - 公众号MRDFZ_27
-      - 公众号MRDFZ_28
-      - 公众号MRDFZ_29
-      - 公众号MRDFZ_30
-      - 公众号MRDFZ_31
-      - 公众号MRDFZ_32
-      - 公众号MRDFZ_33
-      - 公众号MRDFZ_34
-      - 公众号MRDFZ_35
-      - 公众号MRDFZ_36
-      - 公众号MRDFZ_37
-      - 公众号MRDFZ_38
-      - 公众号MRDFZ_39
-      - 公众号MRDFZ_40
-      - 公众号MRDFZ_41
-      - 公众号MRDFZ_42
-      - 公众号MRDFZ_43
-      - 公众号MRDFZ_44
-      - 公众号MRDFZ_45
-      - 麻烦大家关注一下抖音
-      - 穷了恰点烂钱
-      - DY：MRDFZ
-      - 后面会发各种教程
-      - 恰点烂钱
+      - 出一位66R订阅
+      - 即日起到24年5月
+      - 有意联系V：MRDFZ-
+      - 🇭🇰_公众号MRDFZ_1
+      - 🇭🇰_公众号MRDFZ_2
+      - 🇭🇰_公众号MRDFZ_3
+      - 🇭🇰_公众号MRDFZ_4
+      - 🇭🇰_公众号MRDFZ_5
+      - 🇭🇰_公众号MRDFZ_6
+      - 🇸🇬_公众号MRDFZ_1
+      - 🇸🇬_公众号MRDFZ_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 公众号MRDFZ_1
-      - 公众号MRDFZ_2
-      - 公众号MRDFZ_3
-      - 公众号MRDFZ_4
-      - 公众号MRDFZ_5
-      - 公众号MRDFZ_6
-      - 公众号MRDFZ_7
-      - 公众号MRDFZ_8
-      - 公众号MRDFZ_9
-      - 公众号MRDFZ_10
-      - 公众号MRDFZ_11
-      - 公众号MRDFZ_12
-      - 公众号MRDFZ_13
-      - 公众号MRDFZ_14
-      - 公众号MRDFZ_15
-      - 公众号MRDFZ_16
-      - 公众号MRDFZ_17
-      - 公众号MRDFZ_18
-      - 公众号MRDFZ_19
-      - 公众号MRDFZ_20
-      - 公众号MRDFZ_21
-      - 公众号MRDFZ_22
-      - 公众号MRDFZ_23
-      - 公众号MRDFZ_24
-      - 公众号MRDFZ_25
-      - 公众号MRDFZ_26
-      - 公众号MRDFZ_27
-      - 公众号MRDFZ_28
-      - 公众号MRDFZ_29
-      - 公众号MRDFZ_30
-      - 公众号MRDFZ_31
-      - 公众号MRDFZ_32
-      - 公众号MRDFZ_33
-      - 公众号MRDFZ_34
-      - 公众号MRDFZ_35
-      - 公众号MRDFZ_36
-      - 公众号MRDFZ_37
-      - 公众号MRDFZ_38
-      - 公众号MRDFZ_39
-      - 公众号MRDFZ_40
-      - 公众号MRDFZ_41
-      - 公众号MRDFZ_42
-      - 公众号MRDFZ_43
-      - 公众号MRDFZ_44
-      - 公众号MRDFZ_45
-      - 麻烦大家关注一下抖音
-      - 穷了恰点烂钱
-      - DY：MRDFZ
-      - 后面会发各种教程
-      - 恰点烂钱
+      - 出一位66R订阅
+      - 即日起到24年5月
+      - 有意联系V：MRDFZ-
+      - 🇭🇰_公众号MRDFZ_1
+      - 🇭🇰_公众号MRDFZ_2
+      - 🇭🇰_公众号MRDFZ_3
+      - 🇭🇰_公众号MRDFZ_4
+      - 🇭🇰_公众号MRDFZ_5
+      - 🇭🇰_公众号MRDFZ_6
+      - 🇸🇬_公众号MRDFZ_1
+      - 🇸🇬_公众号MRDFZ_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 公众号MRDFZ_1
-      - 公众号MRDFZ_2
-      - 公众号MRDFZ_3
-      - 公众号MRDFZ_4
-      - 公众号MRDFZ_5
-      - 公众号MRDFZ_6
-      - 公众号MRDFZ_7
-      - 公众号MRDFZ_8
-      - 公众号MRDFZ_9
-      - 公众号MRDFZ_10
-      - 公众号MRDFZ_11
-      - 公众号MRDFZ_12
-      - 公众号MRDFZ_13
-      - 公众号MRDFZ_14
-      - 公众号MRDFZ_15
-      - 公众号MRDFZ_16
-      - 公众号MRDFZ_17
-      - 公众号MRDFZ_18
-      - 公众号MRDFZ_19
-      - 公众号MRDFZ_20
-      - 公众号MRDFZ_21
-      - 公众号MRDFZ_22
-      - 公众号MRDFZ_23
-      - 公众号MRDFZ_24
-      - 公众号MRDFZ_25
-      - 公众号MRDFZ_26
-      - 公众号MRDFZ_27
-      - 公众号MRDFZ_28
-      - 公众号MRDFZ_29
-      - 公众号MRDFZ_30
-      - 公众号MRDFZ_31
-      - 公众号MRDFZ_32
-      - 公众号MRDFZ_33
-      - 公众号MRDFZ_34
-      - 公众号MRDFZ_35
-      - 公众号MRDFZ_36
-      - 公众号MRDFZ_37
-      - 公众号MRDFZ_38
-      - 公众号MRDFZ_39
-      - 公众号MRDFZ_40
-      - 公众号MRDFZ_41
-      - 公众号MRDFZ_42
-      - 公众号MRDFZ_43
-      - 公众号MRDFZ_44
-      - 公众号MRDFZ_45
-      - 麻烦大家关注一下抖音
-      - 穷了恰点烂钱
-      - DY：MRDFZ
-      - 后面会发各种教程
-      - 恰点烂钱
+      - 出一位66R订阅
+      - 即日起到24年5月
+      - 有意联系V：MRDFZ-
+      - 🇭🇰_公众号MRDFZ_1
+      - 🇭🇰_公众号MRDFZ_2
+      - 🇭🇰_公众号MRDFZ_3
+      - 🇭🇰_公众号MRDFZ_4
+      - 🇭🇰_公众号MRDFZ_5
+      - 🇭🇰_公众号MRDFZ_6
+      - 🇸🇬_公众号MRDFZ_1
+      - 🇸🇬_公众号MRDFZ_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 公众号MRDFZ_1
-      - 公众号MRDFZ_2
-      - 公众号MRDFZ_3
-      - 公众号MRDFZ_4
-      - 公众号MRDFZ_5
-      - 公众号MRDFZ_6
-      - 公众号MRDFZ_7
-      - 公众号MRDFZ_8
-      - 公众号MRDFZ_9
-      - 公众号MRDFZ_10
-      - 公众号MRDFZ_11
-      - 公众号MRDFZ_12
-      - 公众号MRDFZ_13
-      - 公众号MRDFZ_14
-      - 公众号MRDFZ_15
-      - 公众号MRDFZ_16
-      - 公众号MRDFZ_17
-      - 公众号MRDFZ_18
-      - 公众号MRDFZ_19
-      - 公众号MRDFZ_20
-      - 公众号MRDFZ_21
-      - 公众号MRDFZ_22
-      - 公众号MRDFZ_23
-      - 公众号MRDFZ_24
-      - 公众号MRDFZ_25
-      - 公众号MRDFZ_26
-      - 公众号MRDFZ_27
-      - 公众号MRDFZ_28
-      - 公众号MRDFZ_29
-      - 公众号MRDFZ_30
-      - 公众号MRDFZ_31
-      - 公众号MRDFZ_32
-      - 公众号MRDFZ_33
-      - 公众号MRDFZ_34
-      - 公众号MRDFZ_35
-      - 公众号MRDFZ_36
-      - 公众号MRDFZ_37
-      - 公众号MRDFZ_38
-      - 公众号MRDFZ_39
-      - 公众号MRDFZ_40
-      - 公众号MRDFZ_41
-      - 公众号MRDFZ_42
-      - 公众号MRDFZ_43
-      - 公众号MRDFZ_44
-      - 公众号MRDFZ_45
-      - 麻烦大家关注一下抖音
-      - 穷了恰点烂钱
-      - DY：MRDFZ
-      - 后面会发各种教程
-      - 恰点烂钱
+      - 出一位66R订阅
+      - 即日起到24年5月
+      - 有意联系V：MRDFZ-
+      - 🇭🇰_公众号MRDFZ_1
+      - 🇭🇰_公众号MRDFZ_2
+      - 🇭🇰_公众号MRDFZ_3
+      - 🇭🇰_公众号MRDFZ_4
+      - 🇭🇰_公众号MRDFZ_5
+      - 🇭🇰_公众号MRDFZ_6
+      - 🇸🇬_公众号MRDFZ_1
+      - 🇸🇬_公众号MRDFZ_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -423,56 +150,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 公众号MRDFZ_1
-      - 公众号MRDFZ_2
-      - 公众号MRDFZ_3
-      - 公众号MRDFZ_4
-      - 公众号MRDFZ_5
-      - 公众号MRDFZ_6
-      - 公众号MRDFZ_7
-      - 公众号MRDFZ_8
-      - 公众号MRDFZ_9
-      - 公众号MRDFZ_10
-      - 公众号MRDFZ_11
-      - 公众号MRDFZ_12
-      - 公众号MRDFZ_13
-      - 公众号MRDFZ_14
-      - 公众号MRDFZ_15
-      - 公众号MRDFZ_16
-      - 公众号MRDFZ_17
-      - 公众号MRDFZ_18
-      - 公众号MRDFZ_19
-      - 公众号MRDFZ_20
-      - 公众号MRDFZ_21
-      - 公众号MRDFZ_22
-      - 公众号MRDFZ_23
-      - 公众号MRDFZ_24
-      - 公众号MRDFZ_25
-      - 公众号MRDFZ_26
-      - 公众号MRDFZ_27
-      - 公众号MRDFZ_28
-      - 公众号MRDFZ_29
-      - 公众号MRDFZ_30
-      - 公众号MRDFZ_31
-      - 公众号MRDFZ_32
-      - 公众号MRDFZ_33
-      - 公众号MRDFZ_34
-      - 公众号MRDFZ_35
-      - 公众号MRDFZ_36
-      - 公众号MRDFZ_37
-      - 公众号MRDFZ_38
-      - 公众号MRDFZ_39
-      - 公众号MRDFZ_40
-      - 公众号MRDFZ_41
-      - 公众号MRDFZ_42
-      - 公众号MRDFZ_43
-      - 公众号MRDFZ_44
-      - 公众号MRDFZ_45
-      - 麻烦大家关注一下抖音
-      - 穷了恰点烂钱
-      - DY：MRDFZ
-      - 后面会发各种教程
-      - 恰点烂钱
+      - 出一位66R订阅
+      - 即日起到24年5月
+      - 有意联系V：MRDFZ-
+      - 🇭🇰_公众号MRDFZ_1
+      - 🇭🇰_公众号MRDFZ_2
+      - 🇭🇰_公众号MRDFZ_3
+      - 🇭🇰_公众号MRDFZ_4
+      - 🇭🇰_公众号MRDFZ_5
+      - 🇭🇰_公众号MRDFZ_6
+      - 🇸🇬_公众号MRDFZ_1
+      - 🇸🇬_公众号MRDFZ_2
 
 rules:
 # 本地/局域网地址
@@ -2411,7 +2099,7 @@ rules:
 # YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
-#,USER-AGENT,AbemaTV*,🌍 国外媒体
+#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
@@ -2420,7 +2108,7 @@ rules:
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
-#,USER-AGENT,All4*,🌍 国外媒体
+#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -2442,14 +2130,14 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-#,URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
-#,USER-AGENT,AppleNews*,🌍 国外媒体
-#,USER-AGENT,com.apple.news*,🌍 国外媒体
+#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
+#   - USER-AGENT,AppleNews*,🌍 国外媒体
+#   - USER-AGENT,com.apple.news*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#,USER-AGENT,BBCiPlayer*,🌍 国外媒体
+#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -2464,13 +2152,13 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-#,USER-AGENT,Anime*,🌍 国外媒体
+#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
-#,USER-AGENT,DAZN*,🌍 国外媒体
+#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2482,14 +2170,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-#,USER-AGENT,Deezer*,🌍 国外媒体
+#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,Disney*,🌍 国外媒体
-#,USER-AGENT,Disney+*,🌍 国外媒体
+#   - USER-AGENT,Disney*,🌍 国外媒体
+#   - USER-AGENT,Disney+*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -2510,24 +2198,24 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
-#,USER-AGENT,encoreTVB*,🌍 国外媒体
+#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
-#,USER-AGENT,FOX%20NOW*,🌍 国外媒体
+#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,HBO%20NOW*,🌍 国外媒体
-#,USER-AGENT,HBOMAX*,🌍 国外媒体
+#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
+#   - USER-AGENT,HBOMAX*,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-#,USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
+#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
@@ -2548,7 +2236,7 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
-#,USER-AGENT,HWTVMobile*,🌍 国外媒体
+#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -2564,12 +2252,12 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
-#,USER-AGENT,ITV_Player*,🌍 国外媒体
+#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
-#,USER-AGENT,JOOX*,🌍 国外媒体
-#,USER-AGENT,WeMusic*,🌍 国外媒体
+#   - USER-AGENT,JOOX*,🌍 国外媒体
+#   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -2585,32 +2273,32 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
-#,USER-AGENT,KKTV*,🌍 国外媒体
-#,USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
+#   - USER-AGENT,KKTV*,🌍 国外媒体
+#   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
-#,USER-AGENT,LINE%20TV*,🌍 国外媒体
-#,USER-AGENT,LINE*,🌍 国外媒体
+#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
+#   - USER-AGENT,LINE*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
-#,USER-AGENT,My5*,🌍 国外媒体
+#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-#,USER-AGENT,mytv*,🌍 国外媒体
+#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
   - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-#,USER-AGENT,Argo*,🌍 国外媒体
+#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
@@ -2650,24 +2338,24 @@ rules:
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
-#,USER-AGENT,Niconico*,🌍 国外媒体
+#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-#,USER-AGENT,PBS*,🌍 国外媒体
+#   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-#,USER-AGENT,Pandora*,🌍 国外媒体
+#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
-#,USER-AGENT,SoundCloud*,🌍 国外媒体
+#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-#,USER-AGENT,Spotify*,🌍 国外媒体
+#   - USER-AGENT,Spotify*,🌍 国外媒体
   - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
@@ -2676,14 +2364,14 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
-#,USER-AGENT,TIDAL*,🌍 国外媒体
+#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
-#,USER-AGENT,TaiwanGood*,🌍 国外媒体
+#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-#,USER-AGENT,TikTok*,🌍 国外媒体
+#   - USER-AGENT,TikTok*,🌍 国外媒体
   - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
@@ -2701,7 +2389,7 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-#,USER-AGENT,Viu*,🌍 国外媒体
+#   - USER-AGENT,Viu*,🌍 国外媒体
   - PROCESS-NAME,com.viu.pad,🌍 国外媒体
   - PROCESS-NAME,com.viu.phone,🌍 国外媒体
   - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
@@ -2717,9 +2405,9 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
-#,USER-AGENT,*youtube*,🌍 国外媒体
-#,USER-AGENT,YouTube*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
+#   - USER-AGENT,*youtube*,🌍 国外媒体
+#   - USER-AGENT,YouTube*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -2734,10 +2422,10 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-#,USER-AGENT,*YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
-#,USER-AGENT,YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
 # Telegram
 #PROCESS-NAME,Telegram.exe
