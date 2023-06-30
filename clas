@@ -1,6 +1,9 @@
 ####################################
 # 创建者：MRDFZ
-# 节点数量：11
+# 客户端：Clash
+# 创建时间：2023-06-30 21:49:15
+# 使用模版：V2RaySE 默认模版
+# 节点数量：22
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -18,116 +21,193 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"出一位66R订阅","type":"trojan","server":"tw1.kuimanei.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"kui.kuimanei.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"即日起到24年5月","type":"trojan","server":"us1.kuimanei.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"kui.kuimanei.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"有意联系V：MRDFZ-","type":"trojan","server":"hk7.yihaobao.xyz","port":443,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_公众号MRDFZ_1","type":"trojan","server":"hk1.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_公众号MRDFZ_2","type":"trojan","server":"hk2.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_公众号MRDFZ_3","type":"trojan","server":"hk3.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_公众号MRDFZ_4","type":"trojan","server":"hk4.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_公众号MRDFZ_5","type":"trojan","server":"hk5.yihaobao.xyz","port":10022,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_公众号MRDFZ_6","type":"trojan","server":"hk6.yihaobao.xyz","port":10021,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_公众号MRDFZ_1","type":"trojan","server":"sg1.yihaobao.xyz","port":10025,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_公众号MRDFZ_2","type":"trojan","server":"sg2.yihaobao.xyz","port":10023,"udp":true,"password":"ff7d3733-56a5-4150-b3e5-7bfb4b164cc7","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"24年5月套餐","type":"trojan","server":"spjp.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"66R流量不限","type":"trojan","server":"spjp.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"需要联系V","type":"trojan","server":"spjp.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"V：MRDFZ-","type":"trojan","server":"spsg.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_1","type":"trojan","server":"spsg.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_2","type":"trojan","server":"spus.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_3","type":"trojan","server":"spus.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_4","type":"trojan","server":"sptw.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_5","type":"trojan","server":"sptw.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_6","type":"trojan","server":"spkr.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_7","type":"trojan","server":"spkr.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_8","type":"trojan","server":"sphk.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_9","type":"trojan","server":"sphk.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_10","type":"trojan","server":"sphk.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_11","type":"trojan","server":"sphk.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_12","type":"trojan","server":"spuk.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_公众号MRDFZ_13","type":"trojan","server":"spuk.1234567890spcloud.com","port":443,"udp":true,"password":"e4b7ca0a-9a22-46f6-9739-d9f45223e8ca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_公众号MRDFZ_1","type":"vmess","server":"link.kuaidog001.top","port":443,"cipher":"auto","uuid":"d92898be-1c7f-4b42-a654-fdbd2509b2e8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/news","headers":{"host":"link.kuaidog001.top"}}}
+  - {"name":"🇺🇸_公众号MRDFZ_2","type":"vmess","server":"link1.kuaidog001.top","port":443,"cipher":"auto","uuid":"d92898be-1c7f-4b42-a654-fdbd2509b2e8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/news","headers":{"host":"link1.kuaidog001.top"}}}
+  - {"name":"🇺🇸_公众号MRDFZ_3","type":"vmess","server":"link2.kuaidog001.top","port":443,"cipher":"auto","uuid":"d92898be-1c7f-4b42-a654-fdbd2509b2e8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/news","headers":{"host":"link2.kuaidog001.top"}}}
+  - {"name":"🇺🇸_公众号MRDFZ_4","type":"vmess","server":"link3.kuaidog001.top","port":443,"cipher":"auto","uuid":"d92898be-1c7f-4b42-a654-fdbd2509b2e8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/news","headers":{"host":"link3.kuaidog001.top"}}}
+  - {"name":"🇺🇸_公众号MRDFZ_5","type":"vmess","server":"link4.kuaidog001.top","port":443,"cipher":"auto","uuid":"d92898be-1c7f-4b42-a654-fdbd2509b2e8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/news","headers":{"host":"link4.kuaidog001.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 出一位66R订阅
-      - 即日起到24年5月
-      - 有意联系V：MRDFZ-
-      - 🇭🇰_公众号MRDFZ_1
-      - 🇭🇰_公众号MRDFZ_2
-      - 🇭🇰_公众号MRDFZ_3
-      - 🇭🇰_公众号MRDFZ_4
-      - 🇭🇰_公众号MRDFZ_5
-      - 🇭🇰_公众号MRDFZ_6
-      - 🇸🇬_公众号MRDFZ_1
-      - 🇸🇬_公众号MRDFZ_2
+      - 24年5月套餐
+      - 66R流量不限
+      - 需要联系V
+      - V：MRDFZ-
+      - 🇯🇵_公众号MRDFZ_1
+      - 🇯🇵_公众号MRDFZ_2
+      - 🇯🇵_公众号MRDFZ_3
+      - 🇯🇵_公众号MRDFZ_4
+      - 🇯🇵_公众号MRDFZ_5
+      - 🇯🇵_公众号MRDFZ_6
+      - 🇯🇵_公众号MRDFZ_7
+      - 🇯🇵_公众号MRDFZ_8
+      - 🇯🇵_公众号MRDFZ_9
+      - 🇯🇵_公众号MRDFZ_10
+      - 🇯🇵_公众号MRDFZ_11
+      - 🇯🇵_公众号MRDFZ_12
+      - 🇯🇵_公众号MRDFZ_13
+      - 🇺🇸_公众号MRDFZ_1
+      - 🇺🇸_公众号MRDFZ_2
+      - 🇺🇸_公众号MRDFZ_3
+      - 🇺🇸_公众号MRDFZ_4
+      - 🇺🇸_公众号MRDFZ_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 出一位66R订阅
-      - 即日起到24年5月
-      - 有意联系V：MRDFZ-
-      - 🇭🇰_公众号MRDFZ_1
-      - 🇭🇰_公众号MRDFZ_2
-      - 🇭🇰_公众号MRDFZ_3
-      - 🇭🇰_公众号MRDFZ_4
-      - 🇭🇰_公众号MRDFZ_5
-      - 🇭🇰_公众号MRDFZ_6
-      - 🇸🇬_公众号MRDFZ_1
-      - 🇸🇬_公众号MRDFZ_2
+      - 24年5月套餐
+      - 66R流量不限
+      - 需要联系V
+      - V：MRDFZ-
+      - 🇯🇵_公众号MRDFZ_1
+      - 🇯🇵_公众号MRDFZ_2
+      - 🇯🇵_公众号MRDFZ_3
+      - 🇯🇵_公众号MRDFZ_4
+      - 🇯🇵_公众号MRDFZ_5
+      - 🇯🇵_公众号MRDFZ_6
+      - 🇯🇵_公众号MRDFZ_7
+      - 🇯🇵_公众号MRDFZ_8
+      - 🇯🇵_公众号MRDFZ_9
+      - 🇯🇵_公众号MRDFZ_10
+      - 🇯🇵_公众号MRDFZ_11
+      - 🇯🇵_公众号MRDFZ_12
+      - 🇯🇵_公众号MRDFZ_13
+      - 🇺🇸_公众号MRDFZ_1
+      - 🇺🇸_公众号MRDFZ_2
+      - 🇺🇸_公众号MRDFZ_3
+      - 🇺🇸_公众号MRDFZ_4
+      - 🇺🇸_公众号MRDFZ_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 出一位66R订阅
-      - 即日起到24年5月
-      - 有意联系V：MRDFZ-
-      - 🇭🇰_公众号MRDFZ_1
-      - 🇭🇰_公众号MRDFZ_2
-      - 🇭🇰_公众号MRDFZ_3
-      - 🇭🇰_公众号MRDFZ_4
-      - 🇭🇰_公众号MRDFZ_5
-      - 🇭🇰_公众号MRDFZ_6
-      - 🇸🇬_公众号MRDFZ_1
-      - 🇸🇬_公众号MRDFZ_2
+      - 24年5月套餐
+      - 66R流量不限
+      - 需要联系V
+      - V：MRDFZ-
+      - 🇯🇵_公众号MRDFZ_1
+      - 🇯🇵_公众号MRDFZ_2
+      - 🇯🇵_公众号MRDFZ_3
+      - 🇯🇵_公众号MRDFZ_4
+      - 🇯🇵_公众号MRDFZ_5
+      - 🇯🇵_公众号MRDFZ_6
+      - 🇯🇵_公众号MRDFZ_7
+      - 🇯🇵_公众号MRDFZ_8
+      - 🇯🇵_公众号MRDFZ_9
+      - 🇯🇵_公众号MRDFZ_10
+      - 🇯🇵_公众号MRDFZ_11
+      - 🇯🇵_公众号MRDFZ_12
+      - 🇯🇵_公众号MRDFZ_13
+      - 🇺🇸_公众号MRDFZ_1
+      - 🇺🇸_公众号MRDFZ_2
+      - 🇺🇸_公众号MRDFZ_3
+      - 🇺🇸_公众号MRDFZ_4
+      - 🇺🇸_公众号MRDFZ_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 出一位66R订阅
-      - 即日起到24年5月
-      - 有意联系V：MRDFZ-
-      - 🇭🇰_公众号MRDFZ_1
-      - 🇭🇰_公众号MRDFZ_2
-      - 🇭🇰_公众号MRDFZ_3
-      - 🇭🇰_公众号MRDFZ_4
-      - 🇭🇰_公众号MRDFZ_5
-      - 🇭🇰_公众号MRDFZ_6
-      - 🇸🇬_公众号MRDFZ_1
-      - 🇸🇬_公众号MRDFZ_2
+      - 24年5月套餐
+      - 66R流量不限
+      - 需要联系V
+      - V：MRDFZ-
+      - 🇯🇵_公众号MRDFZ_1
+      - 🇯🇵_公众号MRDFZ_2
+      - 🇯🇵_公众号MRDFZ_3
+      - 🇯🇵_公众号MRDFZ_4
+      - 🇯🇵_公众号MRDFZ_5
+      - 🇯🇵_公众号MRDFZ_6
+      - 🇯🇵_公众号MRDFZ_7
+      - 🇯🇵_公众号MRDFZ_8
+      - 🇯🇵_公众号MRDFZ_9
+      - 🇯🇵_公众号MRDFZ_10
+      - 🇯🇵_公众号MRDFZ_11
+      - 🇯🇵_公众号MRDFZ_12
+      - 🇯🇵_公众号MRDFZ_13
+      - 🇺🇸_公众号MRDFZ_1
+      - 🇺🇸_公众号MRDFZ_2
+      - 🇺🇸_公众号MRDFZ_3
+      - 🇺🇸_公众号MRDFZ_4
+      - 🇺🇸_公众号MRDFZ_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 出一位66R订阅
-      - 即日起到24年5月
-      - 有意联系V：MRDFZ-
-      - 🇭🇰_公众号MRDFZ_1
-      - 🇭🇰_公众号MRDFZ_2
-      - 🇭🇰_公众号MRDFZ_3
-      - 🇭🇰_公众号MRDFZ_4
-      - 🇭🇰_公众号MRDFZ_5
-      - 🇭🇰_公众号MRDFZ_6
-      - 🇸🇬_公众号MRDFZ_1
-      - 🇸🇬_公众号MRDFZ_2
+      - 24年5月套餐
+      - 66R流量不限
+      - 需要联系V
+      - V：MRDFZ-
+      - 🇯🇵_公众号MRDFZ_1
+      - 🇯🇵_公众号MRDFZ_2
+      - 🇯🇵_公众号MRDFZ_3
+      - 🇯🇵_公众号MRDFZ_4
+      - 🇯🇵_公众号MRDFZ_5
+      - 🇯🇵_公众号MRDFZ_6
+      - 🇯🇵_公众号MRDFZ_7
+      - 🇯🇵_公众号MRDFZ_8
+      - 🇯🇵_公众号MRDFZ_9
+      - 🇯🇵_公众号MRDFZ_10
+      - 🇯🇵_公众号MRDFZ_11
+      - 🇯🇵_公众号MRDFZ_12
+      - 🇯🇵_公众号MRDFZ_13
+      - 🇺🇸_公众号MRDFZ_1
+      - 🇺🇸_公众号MRDFZ_2
+      - 🇺🇸_公众号MRDFZ_3
+      - 🇺🇸_公众号MRDFZ_4
+      - 🇺🇸_公众号MRDFZ_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 出一位66R订阅
-      - 即日起到24年5月
-      - 有意联系V：MRDFZ-
-      - 🇭🇰_公众号MRDFZ_1
-      - 🇭🇰_公众号MRDFZ_2
-      - 🇭🇰_公众号MRDFZ_3
-      - 🇭🇰_公众号MRDFZ_4
-      - 🇭🇰_公众号MRDFZ_5
-      - 🇭🇰_公众号MRDFZ_6
-      - 🇸🇬_公众号MRDFZ_1
-      - 🇸🇬_公众号MRDFZ_2
+      - 24年5月套餐
+      - 66R流量不限
+      - 需要联系V
+      - V：MRDFZ-
+      - 🇯🇵_公众号MRDFZ_1
+      - 🇯🇵_公众号MRDFZ_2
+      - 🇯🇵_公众号MRDFZ_3
+      - 🇯🇵_公众号MRDFZ_4
+      - 🇯🇵_公众号MRDFZ_5
+      - 🇯🇵_公众号MRDFZ_6
+      - 🇯🇵_公众号MRDFZ_7
+      - 🇯🇵_公众号MRDFZ_8
+      - 🇯🇵_公众号MRDFZ_9
+      - 🇯🇵_公众号MRDFZ_10
+      - 🇯🇵_公众号MRDFZ_11
+      - 🇯🇵_公众号MRDFZ_12
+      - 🇯🇵_公众号MRDFZ_13
+      - 🇺🇸_公众号MRDFZ_1
+      - 🇺🇸_公众号MRDFZ_2
+      - 🇺🇸_公众号MRDFZ_3
+      - 🇺🇸_公众号MRDFZ_4
+      - 🇺🇸_公众号MRDFZ_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -150,17 +230,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 出一位66R订阅
-      - 即日起到24年5月
-      - 有意联系V：MRDFZ-
-      - 🇭🇰_公众号MRDFZ_1
-      - 🇭🇰_公众号MRDFZ_2
-      - 🇭🇰_公众号MRDFZ_3
-      - 🇭🇰_公众号MRDFZ_4
-      - 🇭🇰_公众号MRDFZ_5
-      - 🇭🇰_公众号MRDFZ_6
-      - 🇸🇬_公众号MRDFZ_1
-      - 🇸🇬_公众号MRDFZ_2
+      - 24年5月套餐
+      - 66R流量不限
+      - 需要联系V
+      - V：MRDFZ-
+      - 🇯🇵_公众号MRDFZ_1
+      - 🇯🇵_公众号MRDFZ_2
+      - 🇯🇵_公众号MRDFZ_3
+      - 🇯🇵_公众号MRDFZ_4
+      - 🇯🇵_公众号MRDFZ_5
+      - 🇯🇵_公众号MRDFZ_6
+      - 🇯🇵_公众号MRDFZ_7
+      - 🇯🇵_公众号MRDFZ_8
+      - 🇯🇵_公众号MRDFZ_9
+      - 🇯🇵_公众号MRDFZ_10
+      - 🇯🇵_公众号MRDFZ_11
+      - 🇯🇵_公众号MRDFZ_12
+      - 🇯🇵_公众号MRDFZ_13
+      - 🇺🇸_公众号MRDFZ_1
+      - 🇺🇸_公众号MRDFZ_2
+      - 🇺🇸_公众号MRDFZ_3
+      - 🇺🇸_公众号MRDFZ_4
+      - 🇺🇸_公众号MRDFZ_5
 
 rules:
 # 本地/局域网地址
